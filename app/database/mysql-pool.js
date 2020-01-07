@@ -15,10 +15,10 @@ let pool = null;
 async function connect() {
     const options = {
         connectionLimit: 10,
-        host: '37.59.55.185',
-        user: 'iPexXblrgX',
-        password: 'WJz6qqgb6o',
-        database: 'iPexXblrgX',
+        host: MYSQL_HOST,
+        user: MYSQL_USER,
+        password: MYSQL_PASSWORD,
+        database: MYSQL_DATABASE,
         port: MYSQL_PORT,
         timezone: 'Z',
     };
