@@ -1,13 +1,11 @@
 'use strict';
 
-
 require('dotenv').config();
 const mysqlPool = require('./app/database/mysql-pool');
 const webServer = require('./app/webserver');
 
 const port = process.env.PORT;
 
-port=8000
 async function initApp() {
     try {
         await mysqlPool.connect();
