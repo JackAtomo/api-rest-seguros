@@ -24,4 +24,13 @@
   "directories": {
     "doc": "docs"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alejarias/backend-seguros-bienestar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alejarias/backend-seguros-bienestar/issues"
+  },
+  "homepage": "https://github.com/alejarias/backend-seguros-bienestar#readme"
+}
